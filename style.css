@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    /* menu bar start here */
+.menu-container{
+    background-color: rgb(97, 97, 173);
+    color: white;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo-photo{
+    width: 90px;
+    height: 90px;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin:10px;
+    padding: 7px;
+    font-size: 18px;
+    cursor:pointer;
+}
+.item:hover{
+    color:yellow;
+}
+/* banner start herer */
+.banner-img{
+ width: 50%;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url('./image/Screenshot_7.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 10px 10px 20px;
+    padding: 70px 50px 0px 50px;
+
+}
+
+.about{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.button{
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;   
+}
+.button:hover{
+    color:yellow;
+}
+/* About us start here */
+.about-us-title{
+    text-align: center;
+    font-size:40px ;
+    padding-top:20px;
+}
+.about-content{
+    text-align: left;
+    padding-right: 80px;
+}
+.about-container-title{
+    font-size: 30px;
+    padding-right:20px;
+}
+.about-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+ 
+}
+.about{
+    color: white;
+    padding: 20px 0px;
+}
+.box{
+    width: 200px;
+    height: 280px;
+    box-shadow: 4px 2px 105px gray;
+    opacity: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.service-container{
+    background-image: url('./image/background.png'),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+
+}
+.service-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+
+    
+}
+.back{
+    background-color: rgb(52, 46, 46);
+    color: white;
+}
+
+.icon{
+    width: 70px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-des{
+    padding: 10px;
+}
+
+.box-button{
+    background-color: rgb(120, 116, 116);
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer; 
+}
+/* footer section start here */
+footer{
+    width: 100%;
+    height: 70vh;
+    background-image: url("./image/Screenshot_7.png");
+    background-repeat:no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8em;
+   
+}
+.footer-container{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 20px; */
+    border-bottom: 1px solid gray;
+}
+.logo-box{
+    width: 25%;
+}
+.logo-box img{
+    width:170px;
+}
+
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.fa-solid{
+    margin-right: 7px;
+}
+.footer-title{
+    margin-bottom: 30px;
+}
+.icons{
+    /* text-align: center; */
+    margin-top:20px;
+}
+.fa-brands{
+    margin: 10px;
+    font-size:20px;
+}
